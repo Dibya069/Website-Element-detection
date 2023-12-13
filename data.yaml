@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 14
+names: ['Breadcrumb', 'Button', 'Check-box', 'Container', 'Drop-down', 'Image', 'Input-field', 'Input-field.', 'Logo', 'Radio', 'Text', 'ink', 'modal', 'navigation']
+
+roboflow:
+  workspace: dibyajyoti-mohanty-eqerk
+  project: website-elements-aneyv
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/dibyajyoti-mohanty-eqerk/website-elements-aneyv/dataset/1
